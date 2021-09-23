@@ -1,0 +1,56 @@
+
+.mainbody {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+body{
+    background-color:black;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: -4px -3px black;
+}
+p, h2 {
+    color: white;
+    text-align: center;
+    text-shadow: -4px -3px black;
+}
+
+ul{
+    list-style-type:none;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card_main {
+    height: 200px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(116, 116, 209);
+    padding-top: 10px;
+}
+
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card_name span {
+    font-size: 15px;
+}
+
+.card_total {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top:-18px;
+    text-shadow: -5px -3px black;
+}
